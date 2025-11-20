@@ -73,6 +73,7 @@ $(function() { // Makes sure that your function is called once all the DOM eleme
       // Increase pet weight
       pet_info.weight = pet_info.weight + 1;
       checkAndUpdatePetInfoInHtml();
+      showReaction("Delicious!");
     }
     
     function clickedPlayButton() {
@@ -81,6 +82,7 @@ $(function() { // Makes sure that your function is called once all the DOM eleme
       // Decrease pet weight
       pet_info.weight = pet_info.weight - 1;
       checkAndUpdatePetInfoInHtml();
+      showReaction("That was fun!");
     }
     
     function clickedExerciseButton() {
@@ -89,6 +91,7 @@ $(function() { // Makes sure that your function is called once all the DOM eleme
       // Decrease pet weight
       pet_info.weight = pet_info.weight - 2;
       checkAndUpdatePetInfoInHtml();
+      showReaction("So tired...");
     }
   
     function checkAndUpdatePetInfoInHtml() {
